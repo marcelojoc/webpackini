@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack index.js -o bundle.js --mode development"
+    "build": "webpack index.js -o bundle.js --mode development",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js"
   },
   "repository": {
     "type": "git",
