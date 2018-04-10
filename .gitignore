@@ -1,0 +1,13 @@
+node_modules
+build
+npm-debug.log
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
