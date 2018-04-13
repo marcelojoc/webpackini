@@ -8,7 +8,8 @@
     "build": "webpack index.js -o bundle.js --mode development",
     "build:local": "webpack",
     "build:external": "webpack --config ./external/webpack.config.js",
-    "build:css": "webpack --config ./css-style-loader/webpack.config.js"
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:extract": "webpack --config ./plugin-extract/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,13 @@
   "keywords": [
     "webpack"
   ],
-  "author": "matceloContreras",
+  "author": "marceloContreras",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
     "style-loader": "^0.20.3",
-    "webpack": "^4.5.0",
+    "webpack": "^3.8.1",
     "webpack-cli": "^2.0.14"
   }
 }
