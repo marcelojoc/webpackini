@@ -9,7 +9,9 @@
     "build:local": "webpack",
     "build:external": "webpack --config ./external/webpack.config.js",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js",
-    "build:extract": "webpack --config ./plugin-extract/webpack.config.js"
+    "build:extract": "webpack --config ./plugin-extract/webpack.config.js",
+    "build:babel": "webpack --config ./plugin-extract/webpack.config.js",
+    "build:multiple": "webpack --config ./multiple_entry_point/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +23,19 @@
   "author": "marceloContreras",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
     "style-loader": "^0.20.3",
     "webpack": "^3.8.1",
     "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "npm": "^5.8.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
   }
 }
