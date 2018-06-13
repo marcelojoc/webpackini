@@ -18,6 +18,21 @@ module.exports={                // exporto el modulo de configuracion
             {
                 // test:  que tipo de archivo quiero reconocer
                 // use:  que loader se va a encargar del archivo
+                test: /\.js$/,
+                //Loader to use
+                exclude: /(node_modules)/,
+                use: {
+                    loader:'babel-loader',
+                    options:{
+                        presets:['es2015']
+                    }
+
+                }
+                
+            },
+            {
+                // test:  que tipo de archivo quiero reconocer
+                // use:  que loader se va a encargar del archivo
                 test: /\.css$/,
                 //Loader to use
                 use: ExtractTextPlugin.extract({        
