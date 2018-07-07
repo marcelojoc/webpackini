@@ -1,0 +1,182 @@
+[
+    {
+      "_id": "5b358e6347a75cffe80772f8",
+      "index": 0,
+      "isActive": false,
+      "balance": "$2,256.42",
+      "picture": "http://placehold.it/32x32",
+      "age": 28,
+      "name": "Steele Livingston",
+      "gender": "male",
+      "company": "GINKOGENE",
+      "email": "steelelivingston@ginkogene.com",
+      "phone": "+1 (877) 490-3348",
+      "address": "596 Driggs Avenue, Newry, Kansas, 915",
+      "latitude": -66.930997,
+      "longitude": -28.307054,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Boyer Dunlap"
+        },
+        {
+          "id": 1,
+          "name": "Brooks Daniel"
+        },
+        {
+          "id": 2,
+          "name": "Good Bray"
+        }
+      ]
+    },
+    {
+      "_id": "5b358e6313d8ac671385909b",
+      "index": 1,
+      "isActive": false,
+      "balance": "$2,202.08",
+      "picture": "http://placehold.it/32x32",
+      "age": 28,
+      "name": "Macdonald Barrett",
+      "gender": "male",
+      "company": "EMTRAC",
+      "email": "macdonaldbarrett@emtrac.com",
+      "phone": "+1 (910) 498-2884",
+      "address": "854 Guider Avenue, Epworth, Rhode Island, 6347",
+      "latitude": 54.69625,
+      "longitude": -148.09841,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Lina Rodgers"
+        },
+        {
+          "id": 1,
+          "name": "Erica Mcknight"
+        },
+        {
+          "id": 2,
+          "name": "Clark Schroeder"
+        }
+      ]
+    },
+    {
+      "_id": "5b358e6307ca7415489a8b59",
+      "index": 2,
+      "isActive": true,
+      "balance": "$1,578.25",
+      "picture": "http://placehold.it/32x32",
+      "age": 37,
+      "name": "Weeks Kerr",
+      "gender": "male",
+      "company": "ESCENTA",
+      "email": "weekskerr@escenta.com",
+      "phone": "+1 (981) 446-3547",
+      "address": "213 Ferry Place, Condon, Alaska, 651",
+      "latitude": 83.495064,
+      "longitude": -43.677629,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Marks Murphy"
+        },
+        {
+          "id": 1,
+          "name": "Ellis Rivera"
+        },
+        {
+          "id": 2,
+          "name": "Kaitlin Reilly"
+        }
+      ]
+    },
+    {
+      "_id": "5b358e637bf538d6053f19a2",
+      "index": 3,
+      "isActive": true,
+      "balance": "$2,180.17",
+      "picture": "http://placehold.it/32x32",
+      "age": 33,
+      "name": "Sheila Hicks",
+      "gender": "female",
+      "company": "FIREWAX",
+      "email": "sheilahicks@firewax.com",
+      "phone": "+1 (974) 516-3173",
+      "address": "463 Royce Place, Spokane, Louisiana, 8252",
+      "latitude": 43.391311,
+      "longitude": 144.411207,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Ochoa Zimmerman"
+        },
+        {
+          "id": 1,
+          "name": "Nelson Ingram"
+        },
+        {
+          "id": 2,
+          "name": "Wood Webster"
+        }
+      ]
+    },
+    {
+      "_id": "5b358e6381133312c057bf9f",
+      "index": 4,
+      "isActive": false,
+      "balance": "$2,200.68",
+      "picture": "http://placehold.it/32x32",
+      "age": 24,
+      "name": "Matthews Stein",
+      "gender": "male",
+      "company": "VALREDA",
+      "email": "matthewsstein@valreda.com",
+      "phone": "+1 (838) 488-2962",
+      "address": "623 Stillwell Avenue, Springdale, Oregon, 1714",
+      "latitude": 89.669954,
+      "longitude": -23.33782,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Kathryn Crane"
+        },
+        {
+          "id": 1,
+          "name": "Reed Carver"
+        },
+        {
+          "id": 2,
+          "name": "Joann Simmons"
+        }
+      ]
+    },
+    {
+      "_id": "5b358e63469cdabe57854a98",
+      "index": 5,
+      "isActive": false,
+      "balance": "$3,035.40",
+      "picture": "http://placehold.it/32x32",
+      "age": 20,
+      "name": "Avila Mejia",
+      "gender": "male",
+      "company": "GEOFORM",
+      "email": "avilamejia@geoform.com",
+      "phone": "+1 (981) 458-2112",
+      "address": "895 Kossuth Place, Noxen, Pennsylvania, 9080",
+      "latitude": 32.895698,
+      "longitude": -29.512037,
+      "friends": [
+        {
+          "id": 0,
+          "name": "Ruth Palmer"
+        },
+        {
+          "id": 1,
+          "name": "Terri Valencia"
+        },
+        {
+          "id": 2,
+          "name": "Hester Greene"
+        }
+      ]
+    }
+]
