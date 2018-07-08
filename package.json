@@ -18,7 +18,8 @@
     "build:video": "webpack --config ./url-loader-video/webpack.config.js ",
     "build:json": "webpack --config ./json-loader/webpack.config.js ",
     "build:react": "webpack --config ./react/webpack.config.js ",
-    "build:sass": "webpack --config ./sass-loader/webpack.config.js "
+    "build:sass": "webpack --config ./sass-loader/webpack.config.js ",
+    "build:stylus": "webpack --config ./stylus-loader/webpack.config.js "
   },
   "repository": {
     "type": "git",
@@ -39,9 +40,13 @@
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "^1.1.11",
     "json-loader": "^0.5.7",
+    "nib": "^1.1.2",
     "node-sass": "^4.9.1",
+    "rupture": "^0.7.1",
     "sass-loader": "^7.0.3",
     "style-loader": "0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "url-loader": "1.0.1",
     "webpack": "3.8.1",
     "webpack-cli": "2.0.14",
