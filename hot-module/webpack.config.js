@@ -1,10 +1,12 @@
+const webpack = require('webpack');
+
 module.exports={
     entry:{
         app: './index.js',
     },
     output:{
 
-        filename:'bundle.js',
+        filename:'[name].bundle.js',
     }
 
 }
