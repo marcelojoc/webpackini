@@ -1,3 +1,32 @@
-body{
-    background-color: cadetblue;
-}
+body {
+    background: red;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+  }
+  
+  p {
+  
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    animation: move 5s infinite ease-in-out alternate;
+  
+  }
+  
+  
+  @keyframes move {
+    0% {
+      transform: translateX(-200px);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }

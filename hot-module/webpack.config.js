@@ -8,6 +8,10 @@ module.exports={
 
         filename:'[name].bundle.js',
     },
+    
+    devServer: {
+      hot: true,
+    },
 
     module:{
 
@@ -20,6 +24,9 @@ module.exports={
         ]
 
 
-    }
+    },
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ]
 
 }
